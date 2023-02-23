@@ -1,6 +1,7 @@
 node_modules
 src
 .gitignore
+.gitignore
 .browserslistrc
 .csscomb.json
 Desktop.png
@@ -9,3 +10,8 @@ package-lock.json
 package.json
 prepros.config
 webpack.config.js
+
+
+
+
+fadsfdafa
