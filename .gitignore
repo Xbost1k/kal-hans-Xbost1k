@@ -1,10 +1,10 @@
 node_modules
 src
 .browserslistrc
-.csscomb
-Desktop
-gulpfile
-package-lock
-package
-prepros
-webpack.config
+.csscomb.json
+Desktop.png
+gulpfile.js
+package-lock.json
+package.json
+prepros.config
+webpack.config.js
