@@ -14,9 +14,13 @@ module.exports = {
 	target,
 	devtool,
 	devServer: {
-		port: 3000,
+		historyApiFallback: true,
+		static: path.build,
+		compress: true,
+		port: "auto",
 		open: true,
 		hot: true,
+		host: "local-ip"
 	},
 	entry: path.resolve(__dirname, 'src', 'index.js'), // чтение файла до webpack.config.js
 	output: {
