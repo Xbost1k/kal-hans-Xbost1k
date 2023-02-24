@@ -17,8 +17,10 @@
 		margin-bottom: 50px;
 	}
 	&__item {
-		max-width: 389px;
-		text-align: center;
+		display: flex;
+		flex-basis: 389px;
+		flex-direction: column;
+		align-items: center;
 	}
 	&__item-image {
 		margin-bottom: 20px;
