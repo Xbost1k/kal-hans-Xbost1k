@@ -14,18 +14,62 @@
 	}
 	&__btn {
 		font-size: 13px;
+		margin-bottom: 79px;
 	}
 	&__inner {
 		display: flex;
-		
-		height: 346px;
+		column-gap: 20px;
 		text-align: left;
+		margin-bottom: 40px;
+		justify-content: center;
+		overflow: hidden;
 	}
 }
 .comment {
+	padding: 15px 20px;
+	position: relative;
+	flex-shrink: 0;
 	max-width: 346px;
-	border: 1px solid black;
+	max-height: 346px;
+	font-size: 13px;
+	color: white;
+	overflow: hidden;
 	&__date {
-		
+		position: absolute;
+		bottom: 15px;
+		font-size: 11px;
 	}
+	&__text {
+		position: relative;
+		margin-bottom: 50px;
+	}
+	&::before {
+		content: '';
+		display: block;
+		width: 100%;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		background-color:rgba(0, 0, 0, 0.59);
+	}
+}
+.comment-userIMG-1 {
+	background-image: url("img/comment-1.jpg");
+}
+.comment-userIMG-2 {
+	background-image: url("img/comment-2.jpg");
+	background-size: cover;
+}
+.comment-userIMG-3 {
+	background-image: url("img/comment-3.jpg");
+	background-size: cover;
+}
+.comment-userIMG-4 {
+	background-image: url("img/comment-4.jpg");
+	background-size: cover;
+}
+.comment-userIMG-5 {
+	background-image: url("img/comment-5.jpg");
 }
