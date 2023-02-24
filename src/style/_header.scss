@@ -1,0 +1,61 @@
+.header {
+	background-color: $timberWolf;
+	position: fixed;
+	width: 100vw;
+	z-index: 100;
+	&__discount {
+		text-align: center;
+		background: #FFFFFF;
+		padding: 14px 0;
+	}
+	&__discount-text {
+		color: $pinkBrown;
+	}
+	&__wrap {
+		display: flex;
+		padding: 20px 0;
+		justify-content: center;
+		align-items: center;
+	}
+	&__burger {
+		position: absolute;
+		left: 0;
+		width: 30px;
+		height: 16px;
+		cursor: pointer;
+	}
+	&__logo {
+		cursor: pointer;
+	}
+	&__right {
+		display: flex;
+		align-items: center;
+		position: absolute;
+		right: 0;
+	}
+	&__search-form {
+		display: flex;
+		margin-right: 62px;
+	}
+	&__search-form input[type=search] {
+		height: 52px;
+		width: 274px;
+		border: 2px solid black;
+		border-right: 0;
+	}
+	&__search-form input[type=submit] {
+		width: 90px;
+		height: 52px;
+		border: 2px solid black;
+		border-left: 0;
+		background-image: url('img/icon/form__search.svg');
+		background-repeat: no-repeat;
+		background-position: 44px;
+		background-color: $timberWolf;
+		cursor: pointer;
+	}
+	&__basket {
+		width: 24px;
+		height: 24px;
+	}
+}

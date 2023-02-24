@@ -1,0 +1,9 @@
+.banner {
+	top: 49px;
+	z-index: -1;
+	&__button {
+		position: absolute;
+		bottom: 30px;
+		line-height: 20px;
+	}
+}
